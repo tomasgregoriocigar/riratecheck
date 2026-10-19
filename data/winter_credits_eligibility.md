@@ -1,1 +1,132 @@
-IyBSSSBXaW50ZXIgMjAyNuKAkzI3IEJpbGwgQ3JlZGl0cyDigJQgRWxpZ2liaWxpdHkgb2YgVGhpcmQtUGFydHkgU3VwcGxpZXIgQ3VzdG9tZXJzCgpSZXNlYXJjaGVkOiBPY3RvYmVyIDE3LCAyMDI2ClF1ZXN0aW9uOiBEbyBSSSByZXNpZGVudGlhbCBjdXN0b21lcnMgd2hvIGJ1eSBzdXBwbHkgZnJvbSBhICoqdGhpcmQtcGFydHkgY29tcGV0aXRpdmUgc3VwcGxpZXIqKgoobm90IExhc3QgUmVzb3J0IFNlcnZpY2UsIG5vdCBhIG11bmljaXBhbCBhZ2dyZWdhdGlvbiBwcm9ncmFtKSBrZWVwICoqYm90aCoqIHdpbnRlciBiaWxsIGNyZWRpdHM/CgojIyBWZXJkaWN0cwoKfCBDcmVkaXQgfCBBbW91bnQgLyBwZXJpb2QgfCBWZXJkaWN0IGZvciB0aGlyZC1wYXJ0eSBzdXBwbGllciBjdXN0b21lcnMgfAp8LS0tfC0tLXwtLS18CnwgKioxLiBIb2xkIEhhcm1sZXNzIGNyZWRpdCoqIChQUEwvTmFycmFnYW5zZXR0IGFjcXVpc2l0aW9uIHNldHRsZW1lbnQpIHwgKiokMTQuNTAvbW9udGgqKiwgYmlsbHMgcmVuZGVyZWQgKipPY3RvYmVyIDIwMjYg4oCTIFNlcHRlbWJlciAyMDI3KiogfCAqKkVMSUdJQkxFKiogfAp8ICoqMi4gUkdHSSBlbWVyZ2VuY3kgY3JlZGl0KiogKEV4ZWN1dGl2ZSBPcmRlciAyNi0wNSAvIE9FUiBwZXRpdGlvbikgfCAqKiQyMC40NS9tb250aCoqLCBiaWxsaW5nIHBlcmlvZHMgKipKYW51YXJ5LCBGZWJydWFyeSwgTWFyY2ggMjAyNyoqICgkNjEuMzUgdG90YWwpIHwgKipFTElHSUJMRSoqIChhbGwgcmVzaWRlbnRpYWwgYWNjb3VudHMgYXJlIG9uIHRoZSBxdWFsaWZ5aW5nIEEtMTYvQS02MCBkZWxpdmVyeSByYXRlcykgfAoKQ29tYmluZWQgdmFsdWUgSmFudWFyeeKAk01hcmNoIDIwMjc6ICQxNC41MCArICQyMC40NSA9ICoqJDM0Ljk1L21vbnRoKiogKHRoZSAifiQzNC9tb250aCIgaW4gdGhlIEdvdmVybm9yJ3MgYW5ub3VuY2VtZW50KS4KCiMjIFdoeTogYm90aCBjcmVkaXRzIGFyZSBERUxJVkVSWS1zaWRlLCBub3Qgc3VwcGx5LXNpZGUKCk5laXRoZXIgY3JlZGl0IGlzIGEgcmVkdWN0aW9uIGluIHRoZSBMYXN0IFJlc29ydCBTZXJ2aWNlIHN1cHBseSByYXRlLCBhIHBlci1rV2ggc3VwcGx5IGNoYXJnZSwKb3IgYW55dGhpbmcgY29uZGl0aW9uZWQgb24gd2hvIHN1cHBsaWVzIHRoZSBlbmVyZ3kuIEJvdGggYXJlICoqZml4ZWQtZG9sbGFyIGxpbmUtaXRlbSBjcmVkaXRzCmFwcGxpZWQgYnkgUmhvZGUgSXNsYW5kIEVuZXJneSB0byB0aGUgY3VzdG9tZXIncyBkaXN0cmlidXRpb24gKGRlbGl2ZXJ5KSBhY2NvdW50KiouIEEgY3VzdG9tZXIKd2hvIHN3aXRjaGVzIHN1cHBseSB0byBhIHRoaXJkLXBhcnR5IHN1cHBsaWVyIHJlbWFpbnMgYSBSaG9kZSBJc2xhbmQgRW5lcmd5IGRpc3RyaWJ1dGlvbgpjdXN0b21lciwgb24gdGhlIHNhbWUgZGVsaXZlcnkgcmF0ZSwgYmlsbGVkIGJ5IFJob2RlIElzbGFuZCBFbmVyZ3kg4oCUIHNvIGJvdGggY3JlZGl0cyBmb2xsb3cKdGhlIGFjY291bnQgcmVnYXJkbGVzcyBvZiB0aGUgc3VwcGx5IHNvdXJjZS4KCiMjIyBDcmVkaXQgMSDigJQgSG9sZCBIYXJtbGVzcyAodGFyaWZmIFJJUFVDIE5vLiAyMzA0OyBQVUMgRG9ja2V0IE5vLiAyNS00NS1HRSkKCk1lY2hhbmlzbTogdW5pZm9ybSBmaXhlZCBtb250aGx5IGNyZWRpdCBvbiB0aGUgZWxlY3RyaWMgKipkaXN0cmlidXRpb24qKiBiaWxsLCBmdW5kZWQgYnkgUFBMJ3MKYWNjZWxlcmF0ZWQgImhvbGQgaGFybWxlc3MiIGNvbW1pdG1lbnQgZnJvbSB0aGUgMjAyMiBOYXJyYWdhbnNldHQgRWxlY3RyaWMgYWNxdWlzaXRpb24KKCQ5MSwwODEsNzkwIGVsZWN0cmljIHRvdGFsKS4gVGhlcmUgaXMgKipubyByYXRlLWNsYXNzIHJlc3RyaWN0aW9uIGF0IGFsbCoqIOKAlCBldmVyeSBhY3RpdmUKZWxlY3RyaWMgZGlzdHJpYnV0aW9uIGFjY291bnQgcXVhbGlmaWVzLCByZXNpZGVudGlhbCBhbmQgY29tbWVyY2lhbCBhbGlrZS4KCkV2aWRlbmNlOgotIERpdmlzaW9uIG9mIFB1YmxpYyBVdGlsaXRpZXMgJiBDYXJyaWVycyBwb3NpdGlvbiBtZW1vcmFuZHVtLCBEb2NrZXQgMjUtNDUtR0UgKFNlcHQuIDIyLCAyMDI2KSwKICBkZXNjcmliaW5nIHRhcmlmZiBSSVBVQyBOby4gMjMwNDogdGhlIHByb3Zpc2lvbiAicHJvdmlkZXMgZm9yICQ5MSwwODEsNzkwIHRvIGJlIHByb3ZpZGVkIHRvCiAgKiphbGwgZWxlY3RyaWMgZGlzdHJpYnV0aW9uIGN1c3RvbWVycyoqIHRocm91Z2ggbW9udGhseSBiaWxsIGNyZWRpdHMgb2YgKiokMTQuNTAgYXBwbGllZCB0bwogIGVhY2ggYWN0aXZlIGVsZWN0cmljIGRpc3RyaWJ1dGlvbiBhY2NvdW50KiogZHVyaW5nIHRoZSBwZXJpb2QgKipPY3RvYmVyIDIwMjYgdGhyb3VnaAogIFNlcHRlbWJlciAyMDI3KiouIiBUaGUgRGl2aXNpb24gcmVjb21tZW5kZWQgdGhlIHRhcmlmZiBiZSBhcHByb3ZlZCBhcyBjb21wbHlpbmcgd2l0aCB0aGUKICBDb21taXNzaW9uJ3MgZGVjaXNpb24uCiAgaHR0cHM6Ly9yaXB1Yy5yaS5nb3Yvc2l0ZXMvZy9maWxlcy94a2didXI4NDEvZmlsZXMvMjAyNi0wOS8yNS00NS1HRSUyMC0lMjBSSUUlMjBHZW4lMjBSYXRlJTIwRmlsaW5nJTIwcmUlMjBIb2xkJTIwSGFybWxlc3MlMjBDb21wbGlhbmNlJTIwLSUyMERQVUMlMjBQb3NpdGlvbiUyMCUyODktMjItMjYlMjkucGRmCi0gUkkgUFVDIERyYWZ0IE1pbnV0ZXMsIERvY2tldCAyNS00NS1HRSwgwrY0Ny5iIChBdWcuIDIxLCAyMDI2KTogIlRoZSBDb21wYW55IHNoYWxsIGRpc3RyaWJ1dGUKICB0aGUgZWxlY3RyaWMgZGlzdHJpYnV0aW9uIENvbnNvbGlkYXRlZCBGaXhlZCBIb2xkIEhhcm1sZXNzIENyZWRpdCB0aHJvdWdoIGEgdW5pZm9ybSBmaXhlZAogIG1vbnRobHkgYmlsbCBjcmVkaXQgKipvbiBhbGwgZWxlY3RyaWMgYWNjb3VudHMqKiwgY29tbWVuY2luZyB3aXRoIGJpbGxzIHJlbmRlcmVkIGluIE9jdG9iZXIKICBvZiAyMDI2IGFuZCBjb250aW51aW5nIHRocm91Z2ggdGhlIG1vbnRoIG9mIFNlcHRlbWJlciAyMDI3LiIKICBodHRwczovL3JpcHVjLnJpLmdvdi9zaXRlcy9nL2ZpbGVzL3hrZ2J1cjg0MS9maWxlcy8yMDI2LTA4L0RrdC4lMjBOby4lMjAyNS00NS1HRSUyMERyYWZ0JTIwTWludXRlcyUyMCg4LTIxLTI2KSUyMChSSUUlMjBSYXRlJTIwQ2FzZS1ISCkucGRmCi0gUmhvZGUgSXNsYW5kIEVuZXJneSBwcmVzcyByZWxlYXNlIChBdWcuIDI1LCAyMDI2KTogIioqYWxsIFJJRSBlbGVjdHJpYyBjdXN0b21lcnMqKiB3aWxsIHNlZSBhCiAgZml4ZWQgY3JlZGl0IG9mIGFwcHJveGltYXRlbHkgJDE0IGVhY2ggbW9udGggYmVnaW5uaW5nIGluIE9jdG9iZXIgMjAyNiB0aHJvdWdoIFNlcHRlbWJlciAyMDI3LiIKICBodHRwczovL25ld3MucHBsd2ViLmNvbS9SaG9kZS1Jc2xhbmQtRW5lcmd5LXRvLWltcGxlbWVudC1Ib2xkLUhhcm1sZXNzLWJpbGwtY3JlZGl0cy1wcm92aWRpbmctYWRkaXRpb25hbC1yZWxpZWYtdG8tY3VzdG9tZXJzCi0gUHJvdmlkZW5jZSBKb3VybmFsIChBdWcuIDI1LCAyMDI2KTogIkFsbCBvZiBSaG9kZSBJc2xhbmQgRW5lcmd5J3MgNTAwLDAwMCBlbGVjdHJpYyBjdXN0b21lcnMKICB3aWxsIGdldCBhIGZpeGVkIG1vbnRobHkgY3JlZGl0IG9mICQxNCBmcm9tIHRoaXMgT2N0b2JlciB0byBTZXB0ZW1iZXIgMjAyNy4iCiAgaHR0cHM6Ly93d3cucHJvdmlkZW5jZWpvdXJuYWwuY29tL3N0b3J5L2J1c2luZXNzL2Vjb25vbXkvMjAyNi8wOC8yNS9yaS1lbmVyZ3ktZWxlY3RyaWMtYW5kLWdhcy1jdXN0b21lcnMtY2FuLWV4cGVjdC1iaWxsLWNyZWRpdHMtdW50aWwtc2VwdC0yMDI3LzkxNDYyODQzMDA3LwoKTm90ZSBvbiB0aGUgZXhhY3QgYW1vdW50OiB0aGUgdGFyaWZmIGZpZ3VyZSBwZXIgdGhlIERQVUMgbWVtbyBpcyAqKiQxNC41MCoqOyBwcmVzcyBjb3ZlcmFnZQpyb3VuZHMgdG8gfiQxNCAob25lIHNlY29uZGFyeSBzb3VyY2Ugc2FpZCAkMTQuNTEpLiBVc2UgJDE0LjUwLgoKIyMjIENyZWRpdCAyIOKAlCBSR0dJIGVtZXJnZW5jeSBjcmVkaXQgKHRhcmlmZiBSSVBVQyBOby4gMjMwOTsgUFVDIERvY2tldCBOby4gMjYtMjgtRUwpCgpNZWNoYW5pc206IGZpeGVkICQyMC40NSBjcmVkaXQgYXBwbGllZCB0byB0aGUgYmlsbCBvZiBlYWNoIHF1YWxpZnlpbmcgYWNjb3VudCwgZnVuZGVkIGJ5CiQyOE0gb2YgUkdHSSBhdWN0aW9uIHJlc2VydmVzIHRyYW5zZmVycmVkIGJ5IHRoZSBPZmZpY2Ugb2YgRW5lcmd5IFJlc291cmNlcyB1bmRlciBFeGVjdXRpdmUKT3JkZXIgMjYtMDUuIEVsaWdpYmlsaXR5IGlzIGtleWVkIHRvIHRoZSAqKmRlbGl2ZXJ5IHJhdGUgY2xhc3MgKEEtMTYgc3RhbmRhcmQgcmVzaWRlbnRpYWwgLwpBLTYwIGxvdy1pbmNvbWUgcmVzaWRlbnRpYWwpKiog4oCUIGJvdGggYXJlIFJob2RlIElzbGFuZCBFbmVyZ3kgKmRlbGl2ZXJ5KiB0YXJpZmZzLiBUYWtpbmcgc3VwcGx5CmZyb20gYSBjb21wZXRpdGl2ZSBzdXBwbGllciBkb2VzIG5vdCBjaGFuZ2UgYSBob3VzZWhvbGQncyBkZWxpdmVyeSByYXRlIGNsYXNzLCBzbyBzdXBwbGllcgpjdXN0b21lcnMgcXVhbGlmeSBvbiB0aGUgc2FtZSB0ZXJtcyBhcyBMYXN0IFJlc29ydCBjdXN0b21lcnMuIEV2ZW4gdGhlIHRhcmlmZidzIHJlY29uY2lsaWF0aW9uCnJ1bnMgdGhyb3VnaCB0aGUgRWxlY3RyaWMgUmV2ZW51ZSBEZWNvdXBsaW5nIE1lY2hhbmlzbSDigJQgYSBkZWxpdmVyeS1yYXRlIG1lY2hhbmlzbSDigJQgd2l0aCBhbnkKZXhjZXNzIHJlY292ZXJlZCAiZnJvbSBhbGwgZWxlY3RyaWMgZGlzdHJpYnV0aW9uIGN1c3RvbWVycy4iCgpFdmlkZW5jZToKLSBUYXJpZmYgUi5JLlAuVS5DLiBOby4gMjMwOSwgwqdJIChBcHBsaWNhYmlsaXR5KSwgZmlsZWQgQXVnLiAxMywgMjAyNiBpbiBEb2NrZXQgMjYtMjgtRUw6CiAgIlRoaXMgdGFyaWZmIGFwcGxpZXMgdG8gKiplYWNoIGVsZWN0cmljIGRpc3RyaWJ1dGlvbiBjdXN0b21lciBhY2NvdW50IGluIHRoZSBBLTE2IGFuZCBBLTYwCiAgcmF0ZSBjbGFzc2VzKiogKHRoZSAnUmVzaWRlbnRpYWwgUmF0ZSBDbGFzc2VzJykgKip0aGF0IGlzIGlzc3VlZCBhIGJpbGwqKiBkdXJpbmcgdGhlIGFwcGxpY2FibGUKICBwZXJpb2Rz4oCmIiDCp0lJIHNldHMgdGhlIGNyZWRpdCBhdCAqKiQyMC40NSoqIGZvciBlYWNoIG9mIHRoZSBKYW51YXJ5LCBGZWJydWFyeSBhbmQgTWFyY2ggMjAyNwogIGJpbGxpbmcgcGVyaW9kcy4gTm90aGluZyBpbiB0aGUgdGFyaWZmIG1lbnRpb25zIExhc3QgUmVzb3J0IFNlcnZpY2Ugb3IgY29uZGl0aW9ucyB0aGUgY3JlZGl0CiAgb24gdXRpbGl0eSBzdXBwbHkuCiAgaHR0cHM6Ly9yaXB1Yy5yaS5nb3Yvc2l0ZXMvZy9maWxlcy94a2didXI4NDEvZmlsZXMvMjAyNi0wOC9Eb2NrZXQlMjAyNi0yOC1FTCUyMC0lMjAyMDI2JTIwUkdHSSUyMFRhcmlmZiUyMEFkdmljZSUyMC0lMjAwOC0xMy0yMDI2LnBkZgotIFNhbWUgdGFyaWZmLCBjYWxjdWxhdGlvbiBmb290bm90ZTogdGhlICQyMC40NSB3YXMgY29tcHV0ZWQgYXMgJDI4LDAwMCwwMDAgw7cgMyBtb250aHMgw7cKICAqKjQ1NiwzMTQqKiwgInRoZSBDb21wYW55J3MgbnVtYmVyIG9mICoqZWxlY3RyaWMgZGlzdHJpYnV0aW9uIGN1c3RvbWVyIGFjY291bnRzIGluIHRoZQogIFJlc2lkZW50aWFsIFJhdGUgQ2xhc3NlcyoqIiDigJQgaS5lLiwgdGhlIGRlbm9taW5hdG9yIGlzIGFsbCByZXNpZGVudGlhbCBkaXN0cmlidXRpb24KICBhY2NvdW50cywgbm90IHRoZSBzbWFsbGVyIHNldCBvZiBMYXN0IFJlc29ydCAodXRpbGl0eS1zdXBwbHkpIGFjY291bnRzLgotIEdvdmVybm9yJ3MgcHJlc3MgcmVsZWFzZSAoU2VwdC4gMjQsIDIwMjYpOiAiUmhvZGUgSXNsYW5kIEVuZXJneSByZXNpZGVudGlhbCBjdXN0b21lcnMgd2lsbAogIHJlY2VpdmUgYSAkMjAuNDUgY3JlZGl0IGluIEphbnVhcnksIEZlYnJ1YXJ5LCBhbmQgTWFyY2ggMjAyN+KApiBUaGUgY3JlZGl0cyB3aWxsIGFwcGx5IHRvCiAgcmVzaWRlbnRpYWwgQS0xNiBhbmQgQS02MCBhY2NvdW50cyBhbmQgd2lsbCByZWFjaCBtb3JlIHRoYW4gNDUwLDAwMCBjdXN0b21lcnMgc3RhdGV3aWRlLiIKICBodHRwczovL2dvdmVybm9yLnJpLmdvdi9wcmVzcy1yZWxlYXNlcy9wdWMtYXBwcm92ZXMtZ292ZXJub3ItbWNrZWVzLTI4LW1pbGxpb24td2ludGVyLWVsZWN0cmljLWJpbGwtcmVsaWVmCi0gRXhlY3V0aXZlIE9yZGVyIDI2LTA1IChKdWx5IDIzLCAyMDI2KSBkaXJlY3RlZCBPRVIgdG8gYXBwbHkgdGhlIGZ1bmRzICJhcyBkaXJlY3QgcmF0ZSByZWxpZWYKICBmb3IgKiphbGwgcmVzaWRlbnRpYWwgZWxlY3RyaWMgY3VzdG9tZXJzKiogc3VjaCB0aGF0IHRoZSBmdWxsIHR3ZW50eS1laWdodCBtaWxsaW9uIGRvbGxhcnMgaXMKICBhcHBsaWVkIGFzIGEgdW5pZm9ybSBjcmVkaXQgdG8gcmVzaWRlbnRpYWwgZWxlY3RyaWMgYWNjb3VudHMuIgogIGh0dHBzOi8vZ292ZXJub3IucmkuZ292L2V4ZWN1dGl2ZS1vcmRlcnMvZXhlY3V0aXZlLW9yZGVyLTI2LTA1Ci0gUmhvZGUgSXNsYW5kIEVuZXJneSBzcG9rZXNwZXJzb24gTWljaGFlbCBEYWxvIChxdW90ZWQgYnkgUFZEIEV5ZSk6IHRoZSBSR0dJIGNyZWRpdHMgIndvdWxkCiAgcHJvdmlkZSAqKmFsbCBlbGVjdHJpYyByZXNpZGVudGlhbCBjdXN0b21lciBhY2NvdW50cyoqIHdpdGggYSBtb250aGx5IGJpbGwgY3JlZGl0IG9mCiAgYXBwcm94aW1hdGVseSAkMjAgaW4gZWFjaCBvZiB0aGUgbW9udGhzIG9mIEphbnVhcnksIEZlYnJ1YXJ5LCBhbmQgTWFyY2ggMjAyNy4iCiAgaHR0cHM6Ly9wdmRleWUub3JnL3JpLWVuZXJneS1uZXctcmF0ZS1jYXNlLwoKIyMjIENvcnJvYm9yYXRpb24gZnJvbSB0aGUgYWdncmVnYXRpb24gcHJvZ3JhbXMgKGFscmVhZHkgY29uZmlybWVkLCBhbmQgY29uc2lzdGVudCkKCk11bmljaXBhbCBhZ2dyZWdhdGlvbiBjdXN0b21lcnMgYXJlIGFsc28gbm9uLXV0aWxpdHktc3VwcGx5IGN1c3RvbWVycywgYW5kIGJvdGggdGhlIFByb3ZpZGVuY2UKYW5kIFBvcnRzbW91dGggQ29tbXVuaXR5IEVsZWN0cmljaXR5IHByb2dyYW1zIHN0YXRlIGluIHRoZWlyIHdpbnRlci1yYXRlIGFubm91bmNlbWVudHMKKFNlcHQu4oCTT2N0LiAyMDI2KTogIlRoZSBbQ2l0eS9Ub3duXSBpcyBwbGVhc2VkIHRvIGNvbmZpcm0gdGhhdCBwYXJ0aWNpcGFudHMgd2lsbCByZWNlaXZlICoqYWxsCmJpbGwgY3JlZGl0cyoqIHJlY2VudGx5IGFubm91bmNlZCBieSB0aGUgR292ZXJub3IncyBFeGVjdXRpdmUgT3JkZXIgYW5kIHRoZSBSSSBFbmVyZ3kgSG9sZApIYXJtbGVzcyBzZXR0bGVtZW50LiIKLSBodHRwczovL3d3dy5wb3J0c21vdXRocmkuZ292L20vbmV3c2ZsYXNoL0hvbWUvRGV0YWlsLzczMAotIGh0dHBzOi8vdHJ1Y2tzLmVpbm5ld3MuY29tL3ByX25ld3MvOTQ2NzgyNTQ3L2NpdHktb2YtcHJvdmlkZW5jZS1hbm5vdW5jZXMtd2ludGVyLXJhdGVzLWZvci1wcm92aWRlbmNlLWNvbW11bml0eS1lbGVjdHJpY2l0eS1wcm9ncmFtCgpUaGlzIGlzIGV4YWN0bHkgd2hhdCB0aGUgZGVsaXZlcnktc2lkZSBtZWNoYW5pc20gcHJlZGljdHM6IHN1cHBseSBzb3VyY2UgaXMgaXJyZWxldmFudCB0bwplaXRoZXIgY3JlZGl0OyBvbmx5IHRoZSBkaXN0cmlidXRpb24gYWNjb3VudCBtYXR0ZXJzLgoKIyMgV2hhdCByZW1haW5zIHVuY29uZmlybWVkIC8gY2F2ZWF0cwoKMS4gKipQVUMncyB3cml0dGVuIG9yZGVyIGluIERvY2tldCAyNi0yOC1FTCB3YXMgbm90IGxvY2F0ZWQuKiogVGhlIFJHR0kgdGFyaWZmIHdhcyBmaWxlZCBhcyBhCiAgIHRhcmlmZiBhZHZpY2UgZWZmZWN0aXZlIE5vdmVtYmVyIDEsIDIwMjYgImFic2VudCBhbiBvcmRlciBpc3N1ZWQgYnkgdGhlIFBVQyB0byBhcHByb3ZlIG9yCiAgIHN1c3BlbmQsIiBhbmQgdGhlIEdvdmVybm9yJ3MgU2VwdC4gMjQsIDIwMjYgcmVsZWFzZSBhbm5vdW5jZXMgUFVDIGFwcHJvdmFsLiBUaGUgdGFyaWZmIHRleHQKICAgaXRzZWxmIGlzIHRoZSBvcGVyYXRpdmUgZG9jdW1lbnQgYW5kIGlzIHVuYW1iaWd1b3VzIG9uIGVsaWdpYmlsaXR5LCBzbyB0aGlzIGRvZXMgbm90IGNoYW5nZQogICB0aGUgdmVyZGljdCDigJQgYnV0IGZvciBhIHBhcGVyIHRyYWlsLCB0aGUgc2luZ2xlIGJlc3QgbmV4dCBjaGVjayBpcyB0aGUgb3JkZXIvb3JkZXIgc3VtbWFyeQogICBpbiAqKlBVQyBEb2NrZXQgTm8uIDI2LTI4LUVMKiogKGFuZCB0aGUgZmluYWwgYXBwcm92ZWQgdmVyc2lvbiBvZiBSSVBVQyBOby4gMjMwNCBpbgogICBEb2NrZXQgMjUtNDUtR0UpIG9uIHJpcHVjLnJpLmdvdi4KMi4gKipCaWxsaW5nLWFycmFuZ2VtZW50IGVkZ2UgY2FzZSAodGhlb3JldGljYWwgb25seSkuKiogQm90aCB0YXJpZmZzIGFwcGx5IGNyZWRpdHMgdG8gYWNjb3VudHMKICAgUmhvZGUgSXNsYW5kIEVuZXJneSBiaWxscy4gUkkgcmVzaWRlbnRpYWwgY29tcGV0aXRpdmUtc3VwcGx5IGN1c3RvbWVycyBhcmUgYmlsbGVkIGJ5IFJob2RlCiAgIElzbGFuZCBFbmVyZ3kgdW5kZXIgdXRpbGl0eSBjb25zb2xpZGF0ZWQgYmlsbGluZywgc28gdGhleSBhcmUgY292ZXJlZC4gTm8gc291cmNlIHJldmlld2VkCiAgIGlkZW50aWZpZXMgYW55IHJlc2lkZW50aWFsIGJpbGxpbmcgYXJyYW5nZW1lbnQgaW4gUkkgdGhhdCB3b3VsZCB0YWtlIGFuIGFjY291bnQgb3V0IG9mCiAgIFJob2RlIElzbGFuZCBFbmVyZ3kgYmlsbGluZzsgbm8gZXhjbHVzaW9uIG9mIGNvbXBldGl0aXZlLXN1cHBseSBjdXN0b21lcnMgYXBwZWFycyBhbnl3aGVyZQogICBpbiB0aGUgdGFyaWZmcywgdGhlIERQVUMgbWVtbywgdGhlIFBVQyBtaW51dGVzLCBvciB0aGUgR292ZXJub3Incy9PRVIgbWF0ZXJpYWxzLgozLiAqKlJhdGUtY2xhc3MgYm91bmRhcnkgZm9yIENyZWRpdCAyLioqIEEgcmVzaWRlbnRpYWwgY3VzdG9tZXIgbXVzdCBiZSBvbiBkZWxpdmVyeSByYXRlIEEtMTYKICAgb3IgQS02MCB0byBnZXQgdGhlIFJHR0kgY3JlZGl0LiBUaGVzZSBhcmUgdGhlIHN0YW5kYXJkIChBLTE2KSBhbmQgbG93LWluY29tZSAoQS02MCkKICAgcmVzaWRlbnRpYWwgZGVsaXZlcnkgY2xhc3NlcyDigJQgZWZmZWN0aXZlbHkgYWxsIFJJIHJlc2lkZW50aWFsIGFjY291bnRzIOKAlCBidXQgYSBob3VzZWhvbGQgb24KICAgc29tZSBvdGhlciBhcnJhbmdlbWVudCAoZS5nLiwgYSBjb21tZXJjaWFsIGNsYXNzKSB3b3VsZCBub3QgcXVhbGlmeS4gQ3JlZGl0IDEgaGFzIG5vIHN1Y2gKICAgbGltaXQ6IGl0IGNvdmVycyBhbGwgZWxlY3RyaWMgZGlzdHJpYnV0aW9uIGFjY291bnRzLgo0LiBNaW5vciBmaWd1cmUgdmFyaWFuY2UgaW4gbmV3cyBjb3ZlcmFnZSAoZS5nLiwgUHJvSm8gY2l0ZWQgJDIwLjY1IGFzIGEgInR5cGljYWwgY3VzdG9tZXIiCiAgIFJHR0kgZmlndXJlKSBkb2VzIG5vdCBhZmZlY3QgZWxpZ2liaWxpdHk7IHRoZSB0YXJpZmYgY29udHJvbHMgYXQgYSBmbGF0ICoqJDIwLjQ1KiouCgojIyBCb3R0b20gbGluZSBmb3IgdGhlIGNvbXBhcmF0b3IKClRoZSBzaXRlIG1heSBzdGF0ZSDigJQgd2l0aCB0YXJpZmYgY2l0YXRpb25zIOKAlCB0aGF0IHN3aXRjaGluZyB0byBhIHRoaXJkLXBhcnR5IHN1cHBsaWVyIGRvZXMKKipub3QqKiBjb3N0IGEgUmhvZGUgSXNsYW5kIGhvdXNlaG9sZCBlaXRoZXIgd2ludGVyIGNyZWRpdDogdGhlIH4kMTQuNTAvbW9udGggSG9sZCBIYXJtbGVzcwpjcmVkaXQgKE9jdCAyMDI24oCTU2VwIDIwMjcpIGFuZCB0aGUgJDIwLjQ1L21vbnRoIFJHR0kgY3JlZGl0IChKYW7igJNNYXIgMjAyNykgYXJlIGFwcGxpZWQgdG8gdGhlClJob2RlIElzbGFuZCBFbmVyZ3kgZGVsaXZlcnkgYmlsbCBhbmQgZm9sbG93IHRoZSBkaXN0cmlidXRpb24gYWNjb3VudCwgbm90IHRoZSBzdXBwbGllci4K
+# RI Winter 2026–27 Bill Credits — Eligibility of Third-Party Supplier Customers
+
+Researched: October 17, 2026
+Question: Do RI residential customers who buy supply from a **third-party competitive supplier**
+(not Last Resort Service, not a municipal aggregation program) keep **both** winter bill credits?
+
+## Verdicts
+
+| Credit | Amount / period | Verdict for third-party supplier customers |
+|---|---|---|
+| **1. Hold Harmless credit** (PPL/Narragansett acquisition settlement) | **$14.50/month**, bills rendered **October 2026 – September 2027** | **ELIGIBLE** |
+| **2. RGGI emergency credit** (Executive Order 26-05 / OER petition) | **$20.45/month**, billing periods **January, February, March 2027** ($61.35 total) | **ELIGIBLE** (all residential accounts are on the qualifying A-16/A-60 delivery rates) |
+
+Combined value January–March 2027: $14.50 + $20.45 = **$34.95/month** (the "~$34/month" in the Governor's announcement).
+
+## Why: both credits are DELIVERY-side, not supply-side
+
+Neither credit is a reduction in the Last Resort Service supply rate, a per-kWh supply charge,
+or anything conditioned on who supplies the energy. Both are **fixed-dollar line-item credits
+applied by Rhode Island Energy to the customer's distribution (delivery) account**. A customer
+who switches supply to a third-party supplier remains a Rhode Island Energy distribution
+customer, on the same delivery rate, billed by Rhode Island Energy — so both credits follow
+the account regardless of the supply source.
+
+### Credit 1 — Hold Harmless (tariff RIPUC No. 2304; PUC Docket No. 25-45-GE)
+
+Mechanism: uniform fixed monthly credit on the electric **distribution** bill, funded by PPL's
+accelerated "hold harmless" commitment from the 2022 Narragansett Electric acquisition
+($91,081,790 electric total). There is **no rate-class restriction at all** — every active
+electric distribution account qualifies, residential and commercial alike.
+
+Evidence:
+- Division of Public Utilities & Carriers position memorandum, Docket 25-45-GE (Sept. 22, 2026),
+  describing tariff RIPUC No. 2304: the provision "provides for $91,081,790 to be provided to
+  **all electric distribution customers** through monthly bill credits of **$14.50 applied to
+  each active electric distribution account** during the period **October 2026 through
+  September 2027**." The Division recommended the tariff be approved as complying with the
+  Commission's decision.
+  https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-09/25-45-GE%20-%20RIE%20Gen%20Rate%20Filing%20re%20Hold%20Harmless%20Compliance%20-%20DPUC%20Position%20%289-22-26%29.pdf
+- RI PUC Draft Minutes, Docket 25-45-GE, ¶47.b (Aug. 21, 2026): "The Company shall distribute
+  the electric distribution Consolidated Fixed Hold Harmless Credit through a uniform fixed
+  monthly bill credit **on all electric accounts**, commencing with bills rendered in October
+  of 2026 and continuing through the month of September 2027."
+  https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-08/Dkt.%20No.%2025-45-GE%20Draft%20Minutes%20(8-21-26)%20(RIE%20Rate%20Case-HH).pdf
+- Rhode Island Energy press release (Aug. 25, 2026): "**all RIE electric customers** will see a
+  fixed credit of approximately $14 each month beginning in October 2026 through September 2027."
+  https://news.pplweb.com/Rhode-Island-Energy-to-implement-Hold-Harmless-bill-credits-providing-additional-relief-to-customers
+- Providence Journal (Aug. 25, 2026): "All of Rhode Island Energy's 500,000 electric customers
+  will get a fixed monthly credit of $14 from this October to September 2027."
+  https://www.providencejournal.com/story/business/economy/2026/08/25/ri-energy-electric-and-gas-customers-can-expect-bill-credits-until-sept-2027/91462843007/
+
+Note on the exact amount: the tariff figure per the DPUC memo is **$14.50**; press coverage
+rounds to ~$14 (one secondary source said $14.51). Use $14.50.
+
+### Credit 2 — RGGI emergency credit (tariff RIPUC No. 2309; PUC Docket No. 26-28-EL)
+
+Mechanism: fixed $20.45 credit applied to the bill of each qualifying account, funded by
+$28M of RGGI auction reserves transferred by the Office of Energy Resources under Executive
+Order 26-05. Eligibility is keyed to the **delivery rate class (A-16 standard residential /
+A-60 low-income residential)** — both are Rhode Island Energy *delivery* tariffs. Taking supply
+from a competitive supplier does not change a household's delivery rate class, so supplier
+customers qualify on the same terms as Last Resort customers. Even the tariff's reconciliation
+runs through the Electric Revenue Decoupling Mechanism — a delivery-rate mechanism — with any
+excess recovered "from all electric distribution customers."
+
+Evidence:
+- Tariff R.I.P.U.C. No. 2309, §I (Applicability), filed Aug. 13, 2026 in Docket 26-28-EL:
+  "This tariff applies to **each electric distribution customer account in the A-16 and A-60
+  rate classes** (the 'Residential Rate Classes') **that is issued a bill** during the applicable
+  periods…" §II sets the credit at **$20.45** for each of the January, February and March 2027
+  billing periods. Nothing in the tariff mentions Last Resort Service or conditions the credit
+  on utility supply.
+  https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-08/Docket%2026-28-EL%20-%202026%20RGGI%20Tariff%20Advice%20-%2008-13-2026.pdf
+- Same tariff, calculation footnote: the $20.45 was computed as $28,000,000 ÷ 3 months ÷
+  **456,314**, "the Company's number of **electric distribution customer accounts in the
+  Residential Rate Classes**" — i.e., the denominator is all residential distribution
+  accounts, not the smaller set of Last Resort (utility-supply) accounts.
+- Governor's press release (Sept. 24, 2026): "Rhode Island Energy residential customers will
+  receive a $20.45 credit in January, February, and March 2027… The credits will apply to
+  residential A-16 and A-60 accounts and will reach more than 450,000 customers statewide."
+  https://governor.ri.gov/press-releases/puc-approves-governor-mckees-28-million-winter-electric-bill-relief
+- Executive Order 26-05 (July 23, 2026) directed OER to apply the funds "as direct rate relief
+  for **all residential electric customers** such that the full twenty-eight million dollars is
+  applied as a uniform credit to residential electric accounts."
+  https://governor.ri.gov/executive-orders/executive-order-26-05
+- Rhode Island Energy spokesperson Michael Dalo (quoted by PVD Eye): the RGGI credits "would
+  provide **all electric residential customer accounts** with a monthly bill credit of
+  approximately $20 in each of the months of January, February, and March 2027."
+  https://pvdeye.org/ri-energy-new-rate-case/
+
+### Corroboration from the aggregation programs (already confirmed, and consistent)
+
+Municipal aggregation customers are also non-utility-supply customers, and both the Providence
+and Portsmouth Community Electricity programs state in their winter-rate announcements
+(Sept.–Oct. 2026): "The [City/Town] is pleased to confirm that participants will receive **all
+bill credits** recently announced by the Governor's Executive Order and the RI Energy Hold
+Harmless settlement."
+- https://www.portsmouthri.gov/m/newsflash/Home/Detail/730
+- https://trucks.einnews.com/pr_news/946782547/city-of-providence-announces-winter-rates-for-providence-community-electricity-program
+
+This is exactly what the delivery-side mechanism predicts: supply source is irrelevant to
+either credit; only the distribution account matters.
+
+## What remains unconfirmed / caveats
+
+1. **PUC's written order in Docket 26-28-EL was not located.** The RGGI tariff was filed as a
+   tariff advice effective November 1, 2026 "absent an order issued by the PUC to approve or
+   suspend," and the Governor's Sept. 24, 2026 release announces PUC approval. The tariff text
+   itself is the operative document and is unambiguous on eligibility, so this does not change
+   the verdict — but for a paper trail, the single best next check is the order/order summary
+   in **PUC Docket No. 26-28-EL** (and the final approved version of RIPUC No. 2304 in
+   Docket 25-45-GE) on ripuc.ri.gov.
+2. **Billing-arrangement edge case (theoretical only).** Both tariffs apply credits to accounts
+   Rhode Island Energy bills. RI residential competitive-supply customers are billed by Rhode
+   Island Energy under utility consolidated billing, so they are covered. No source reviewed
+   identifies any residential billing arrangement in RI that would take an account out of
+   Rhode Island Energy billing; no exclusion of competitive-supply customers appears anywhere
+   in the tariffs, the DPUC memo, the PUC minutes, or the Governor's/OER materials.
+3. **Rate-class boundary for Credit 2.** A residential customer must be on delivery rate A-16
+   or A-60 to get the RGGI credit. These are the standard (A-16) and low-income (A-60)
+   residential delivery classes — effectively all RI residential accounts — but a household on
+   some other arrangement (e.g., a commercial class) would not qualify. Credit 1 has no such
+   limit: it covers all electric distribution accounts.
+4. Minor figure variance in news coverage (e.g., ProJo cited $20.65 as a "typical customer"
+   RGGI figure) does not affect eligibility; the tariff controls at a flat **$20.45**.
+
+## Bottom line for the comparator
+
+The site may state — with tariff citations — that switching to a third-party supplier does
+**not** cost a Rhode Island household either winter credit: the ~$14.50/month Hold Harmless
+credit (Oct 2026–Sep 2027) and the $20.45/month RGGI credit (Jan–Mar 2027) are applied to the
+Rhode Island Energy delivery bill and follow the distribution account, not the supplier.
