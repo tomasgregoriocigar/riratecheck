@@ -274,3 +274,18 @@ input[type="range"] { width: 100%; height: 48px; accent-color: var(--green); }
   gap: 18px; align-items: start; }
 #fair-bands .card { margin: 0; }
 @media (max-width: 480px) { .brand-name { font-size: 1.12rem; } }
+
+/* ---------- v1.2 bigger masthead + full real estate (Tom, Oct 19, 2026) ---------- */
+.wrap { max-width: none; padding: 26px 44px 56px; }
+.brand { gap: 18px; margin: 10px 0 14px; }
+.brand .dot { width: 22px; height: 22px; box-shadow: 0 0 14px rgba(77, 255, 109, 0.9); }
+.brand-name { font-size: 2.5rem; letter-spacing: 0.05em; }
+.brand-sub { font-size: 0.98rem; letter-spacing: 0.16em; margin-top: 5px; }
+.tagline { font-size: 1.12rem; }
+.hero h1 { font-size: 2.3rem; }
+@media (max-width: 720px) {
+  .wrap { padding: 18px 16px 40px; }
+  .brand-name { font-size: 1.45rem; }
+  .brand-sub { font-size: 0.8rem; }
+  .hero h1 { font-size: 1.7rem; }
+}
