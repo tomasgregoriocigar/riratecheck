@@ -321,5 +321,39 @@
   "supplier": "Town Square Energy",
   "term_months": 24,
   "verified": true
+ },
+ {
+  "availability": "served",
+  "checked_date": "2026-11-24",
+  "early_termination_fee_usd": 0,
+  "intro_details": null,
+  "monthly_fee_usd": 0,
+  "notes": "VERIFIED LISTING via Empower RI (the RI PUC's official comparison tool), checked 2026-11-24: Major Energy Electric Services, LLC at 15.29 cents/kWh on a 12-month term - the lowest competitive rate on the Empower RI card as of Nov 24, 2026 (12:05am). Major Energy returns to the Empower RI card after its offers were removed from this dataset on 2026-11-21, when they had disappeared from Empower RI. Contract fields follow the 2026-10-17 confirmation from Major Energy's own published materials for its residential fixed product (Customer Contract Summary: fixed rate, residential customers are not charged an early termination fee, monthly administrative fee $0.00; Major's own website likewise states it does not charge an early cancellation fee), and Empower RI's plan-details text for this offer repeats: a fixed rate with no monthly service fee and no early termination fee. CAVEAT: the contract summary on file is Major's standard residential summary (Connecticut edition, MEE.CT.E.TOS.D.12-10-2024); no RI-specific plan document is public and Empower RI publishes no plan name, so plan_name is recorded as not confirmed. Renewable: Empower RI lists this offer as meeting state-mandated renewable energy standards (no additional renewable percentage published). No RI track-record figure in our data for Major Energy.",
+  "plan_name": null,
+  "rate_cents_per_kwh": 15.29,
+  "rate_type": "fixed",
+  "renewable_pct": null,
+  "source_name": "Empower RI (RI Public Utilities Commission) rate card, 2026-11-24",
+  "source_url": "https://www.ripuc.ri.gov",
+  "supplier": "Major Energy",
+  "term_months": 12,
+  "verified": true
+ },
+ {
+  "availability": "served",
+  "checked_date": "2026-11-24",
+  "early_termination_fee_usd": null,
+  "intro_details": null,
+  "monthly_fee_usd": null,
+  "notes": "VERIFIED LISTING via Empower RI (the RI PUC's official comparison tool), checked 2026-11-24: Major Energy Electric Services, LLC at 15.49 cents/kWh on a 24-month term. Major Energy returns to the Empower RI card after its offers were removed from this dataset on 2026-11-21, when they had disappeared from Empower RI. Empower RI's plan-details text for this offer describes a fixed rate with no monthly service fee and no early termination fee, but rate type, ETF, and monthly fee are recorded as not confirmed: the Major Energy contract confirmation on file (2026-10-17, from the supplier's own published materials) covers its 12-month residential fixed product, and that pattern is not assumed for this 24-month term - the same standard applied on 2026-10-17. Renewable: Empower RI lists this offer as meeting state-mandated renewable energy standards (no additional renewable percentage published). No RI track-record figure in our data for Major Energy.",
+  "plan_name": null,
+  "rate_cents_per_kwh": 15.49,
+  "rate_type": null,
+  "renewable_pct": null,
+  "source_name": "Empower RI (RI Public Utilities Commission) rate card, 2026-11-24",
+  "source_url": "https://www.ripuc.ri.gov",
+  "supplier": "Major Energy",
+  "term_months": 24,
+  "verified": true
  }
 ]
