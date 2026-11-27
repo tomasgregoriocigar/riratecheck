@@ -48,7 +48,7 @@ const CREDIT_RGGI = 20.45;             // $/mo, Jan–Mar 2027 billing periods
 const CREDIT_COMBINED_JAN_MAR = 34.95; // both credits together, Jan–Mar 2027
 
 function fmtRate(n) {
-  // 17.029 -> "17.029", 10 -> "10.0", 13.47 -> "13.47"
+  // 17.029 (for example) -> "17.029", 10 -> "10.0", 13.47 -> "13.47"
   let s = Number(n).toFixed(3);
   s = s.replace(/0+$/, '').replace(/\.$/, '.0');
   return s;
@@ -215,7 +215,14 @@ function renderOffer(offer, bench, kwh, isPick) {
   const caution = isCautionFlagged(offer);
   const tr = trackRecordLine(offer);
   let verdict, verdictCls;
-  if (diff > 0) { verdict = '&gt; SAVES ≈ ' + fmtMoney(diff) + '/mo vs default at ' + kwh + ' kWh/mo (supply only, estimated)'; verdictCls = 'good'; }
+  if (offer.rate_type === 'variable') {
+    /* Variable-rate rule (Tomás, Nov 26, 2026): a variable rate can change
+       at any time, so it is NEVER ranked or verdicted as beating the
+       default — shown apart, for reference only. */
+    verdict = '&gt; VARIABLE RATE — shown for reference only. It can change at any time, so this site never ranks it as beating the default.';
+    verdictCls = 'mid';
+  }
+  else if (diff > 0) { verdict = '&gt; SAVES ≈ ' + fmtMoney(diff) + '/mo vs default at ' + kwh + ' kWh/mo (supply only, estimated)'; verdictCls = 'good'; }
   else if (diff < 0) { verdict = '&gt; COSTS ≈ ' + fmtMoney(-diff) + '/mo MORE than default at ' + kwh + ' kWh/mo (supply only, estimated)'; verdictCls = 'bad'; }
   else { verdict = '&gt; SAME as default at ' + kwh + ' kWh/mo (supply only, estimated)'; verdictCls = 'mid'; }
   if (caution) { verdictCls = 'bad'; }
@@ -308,14 +315,26 @@ function init() {
 
     const served = state.offers.filter(o => o.availability !== 'not_served');
     const notServed = state.offers.filter(o => o.availability === 'not_served');
+    /* Variable-rate offers are split out BEFORE ranking (Tomás, Nov 26,
+       2026): shown apart in their own section, never in the ranked lists,
+       never eligible for the pick. Caution-flagged variable offers stay
+       with the flagged group, still with the variable verdict. */
+    const variableServed = served.filter(o => o.rate_type === 'variable' && !isCautionFlagged(o));
+    const ranked = served.filter(o => !(o.rate_type === 'variable' && !isCautionFlagged(o)));
     const clean = [], flagged = [];
-    served.forEach(o => (isCautionFlagged(o) ? flagged : clean).push(o));
+    ranked.forEach(o => (isCautionFlagged(o) ? flagged : clean).push(o));
     const byCost = (a, b) => monthlySupplyCost(a, kwh) - monthlySupplyCost(b, kwh);
-    clean.sort(byCost); flagged.sort(byCost);
+    clean.sort(byCost); flagged.sort(byCost); variableServed.sort(byCost);
 
     const pick = clean.find(o => isHonestPickEligible(o, state.bench.rate_cents_per_kwh));
     let html = '';
     clean.forEach(o => { html += renderOffer(o, state.bench, kwh, o === pick); });
+    if (variableServed.length) {
+      html += '<h3 class="subhead">&gt; VARIABLE-RATE OFFERS — SHOWN APART ON PURPOSE</h3>' +
+        '<p class="note">A variable rate can change at any time, so these offers are never ranked ' +
+        'and never shown as beating the default rate — whatever today&rsquo;s number says.</p>';
+      variableServed.forEach(o => { html += renderOffer(o, state.bench, kwh, false); });
+    }
     if (notServed.length) {
       html += '<h3 class="subhead" style="color:var(--red)">&gt; NOT AVAILABLE IN RHODE ISLAND</h3>' +
         '<p class="note">These suppliers advertise low rates that show up in national search results, ' +
@@ -331,6 +350,11 @@ function init() {
       flagged.forEach(o => { html += renderOffer(o, state.bench, kwh, false); });
     }
     document.getElementById('offers').innerHTML = html;
+    /* The static offers table in #offers-static is the page text for
+       search engines and no-JavaScript readers. Now that the live cards
+       are rendered, hide it so offers are never shown twice. */
+    const staticBlock = document.getElementById('offers-static');
+    if (staticBlock) staticBlock.style.display = 'none';
 
     const sel = document.getElementById('town-select');
     if (sel.value && sel.value !== '__none') {

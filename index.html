@@ -43,7 +43,7 @@
     <!-- ============ HERO ============ -->
     <section class="frame hero" aria-labelledby="hero-h">
       <h1 id="hero-h">Still on Rhode Island Energy&rsquo;s default rate?</h1>
-      <p class="big">Then you are paying the <strong>Last Resort rate: 17.029&cent;/kWh</strong> this winter.
+      <p class="big">Then you are paying the <strong>Last Resort rate: <!--AUTO:benchmark_rate-->17.029<!--/AUTO-->&cent;/kWh</strong> this winter.
       Below: the supplier offers for Rhode Island that we found and could source, ranked by estimated cost —
       with short-term and renewal risks labeled, and each supplier&rsquo;s Rhode Island track record attached where our data has one.
       Sometimes the honest answer is <strong>stay put</strong>. We will tell you when it is.</p>
@@ -92,6 +92,53 @@
       <p class="note">Data checked <span id="checked-date"><!--AUTO:checked_date-->2026-11-26<!--/AUTO--></span>. &ldquo;Not confirmed&rdquo; means the
       source does not publish it — we never guess a fee, term, or rate.</p>
       <div id="offers"><!-- rendered from data/supplier_offers.json --></div>
+      <div id="offers-static">
+<!--AUTO:offers_table--><table class="offers-static ranked">
+<caption>Verified fixed-rate offers, ranked by rate. Default (Last Resort): 17.029c/kWh.</caption>
+<thead><tr><th>Supplier</th><th>Plan</th><th>Rate</th><th>Term</th><th>Status</th><th>Checked</th><th>Vs default</th></tr></thead>
+<tbody>
+<tr><td>Major Energy</td><td>plan name not confirmed</td><td>15.29c/kWh</td><td>12 months</td><td>Verified</td><td>checked 2026-11-24</td><td>below the default by 1.739c</td></tr>
+<tr><td>Archer Energy</td><td>plan name not confirmed</td><td>15.319c/kWh</td><td>19 months</td><td>Verified</td><td>checked 2026-11-21</td><td>below the default by 1.710c</td></tr>
+<tr><td>Direct Energy</td><td>plan name not confirmed</td><td>15.49c/kWh</td><td>11 months</td><td>Verified</td><td>checked 2026-11-21</td><td>below the default by 1.539c</td></tr>
+<tr><td>Major Energy</td><td>plan name not confirmed</td><td>15.49c/kWh</td><td>24 months</td><td>Verified</td><td>checked 2026-11-24</td><td>below the default by 1.539c</td></tr>
+<tr><td>Direct Energy</td><td>Live Brighter 12</td><td>15.69c/kWh</td><td>12 months</td><td>Verified</td><td>checked 2026-11-21</td><td>below the default by 1.339c</td></tr>
+<tr><td>Archer Energy</td><td>plan name not confirmed</td><td>15.999c/kWh</td><td>12 months</td><td>Verified</td><td>checked 2026-11-21</td><td>below the default by 1.030c</td></tr>
+<tr><td>Think Energy</td><td>100% Renewable</td><td>17.1c/kWh</td><td>12 months</td><td>Verified</td><td>checked 2026-11-21</td><td>above the default by 0.071c</td></tr>
+</tbody></table>
+<table class="offers-static variable-offers">
+<caption>Variable-rate offers — shown apart. A variable rate can change at any time, so these are never ranked as beating the default.</caption>
+<thead><tr><th>Supplier</th><th>Plan</th><th>Rate</th><th>Term</th><th>Status</th><th>Checked</th></tr></thead>
+<tbody>
+<tr><td>NextEra Energy Services</td><td>plan name not confirmed</td><td>11.48c/kWh</td><td>not confirmed</td><td>Advertised only</td><td>checked 2026-10-17</td></tr>
+<tr><td>First Point Power</td><td>plan name not confirmed</td><td>13.5c/kWh</td><td>not confirmed</td><td>Advertised only</td><td>checked 2026-10-17</td></tr>
+<tr><td>Viridian Energy</td><td>plan name not confirmed</td><td>19.59c/kWh</td><td>not confirmed</td><td>Advertised only</td><td>checked 2026-10-17</td></tr>
+</tbody></table>
+<table class="offers-static unverified">
+<caption>Advertised offers not yet verified — listed for the record, not ranked.</caption>
+<thead><tr><th>Supplier</th><th>Plan</th><th>Rate</th><th>Term</th><th>Status</th><th>Checked</th></tr></thead>
+<tbody>
+<tr><td>Perch Energy</td><td>plan name not confirmed</td><td>13.5c/kWh</td><td>not confirmed</td><td>Advertised only</td><td>checked 2026-10-17</td></tr>
+<tr><td>CleanChoice Energy</td><td>plan name not confirmed</td><td>15.99c/kWh</td><td>not confirmed</td><td>Advertised only</td><td>checked 2026-10-17</td></tr>
+</tbody></table>
+<table class="offers-static flagged">
+<caption>Flagged on track record — listed apart on purpose. These suppliers' RI customers paid far more than the default on average, 2017-2024 (RI DPUC data).</caption>
+<thead><tr><th>Supplier</th><th>Plan</th><th>Rate</th><th>Term</th><th>Status</th><th>Checked</th></tr></thead>
+<tbody>
+<tr><td>Clearview Energy</td><td>plan name not confirmed</td><td>12.8c/kWh</td><td>not confirmed</td><td>Flagged — track record</td><td>checked 2026-10-17</td></tr>
+<tr><td>Ambit Energy</td><td>Ocean State Select Variable</td><td>16.0c/kWh</td><td>not confirmed</td><td>Flagged — track record</td><td>checked 2026-11-26</td></tr>
+<tr><td>Town Square Energy</td><td>plan name not confirmed</td><td>16.97c/kWh</td><td>24 months</td><td>Flagged — track record</td><td>checked 2026-11-21</td></tr>
+<tr><td>XOOM Energy</td><td>SureLock 24</td><td>17.79c/kWh</td><td>24 months</td><td>Flagged — track record</td><td>checked 2026-11-26</td></tr>
+<tr><td>North American Power</td><td>plan name not confirmed</td><td>19.88c/kWh</td><td>not confirmed</td><td>Flagged — track record</td><td>checked 2026-10-17</td></tr>
+<tr><td>SmartEnergy</td><td>plan name not confirmed</td><td>21.53c/kWh</td><td>not confirmed</td><td>Flagged — track record</td><td>checked 2026-10-17</td></tr>
+</tbody></table>
+<table class="offers-static not-served">
+<caption>Advertised but verified as NOT serving Rhode Island — listed for the record, never ranked.</caption>
+<thead><tr><th>Supplier</th><th>Plan</th><th>Rate</th><th>Term</th><th>Status</th><th>Checked</th></tr></thead>
+<tbody>
+<tr><td>Constellation Energy</td><td>plan name not confirmed</td><td>10.0c/kWh</td><td>not confirmed</td><td>Not served in RI</td><td>checked 2026-10-17</td></tr>
+<tr><td>Verde Energy</td><td>plan name not confirmed</td><td>10.3c/kWh</td><td>not confirmed</td><td>Not served in RI</td><td>checked 2026-11-26</td></tr>
+</tbody></table><!--/AUTO-->
+      </div>
     </section>
 
     <!-- ============ AGGREGATION CHECKER ============ -->
@@ -171,7 +218,7 @@
         <summary>What is the Last Resort rate?</summary>
         <p>The Last Resort rate (Last Resort Service) is Rhode Island Energy&rsquo;s default supply rate — what you
         pay for the supply part of your bill if you have not chosen a third-party supplier or been auto-enrolled in
-        a municipal aggregation program. For <strong>October 1, 2026 through March 31, 2027 it is 17.029&cent;/kWh</strong>,
+        a municipal aggregation program. For <strong><!--AUTO:benchmark_period-->October 1, 2026 through March 31, 2027<!--/AUTO--> it is <!--AUTO:benchmark_rate-->17.029<!--/AUTO-->&cent;/kWh</strong>,
         approved by the RI Public Utilities Commission (tariff R.I.P.U.C. No. 2096). It resets every April 1 and
         October 1; the summer 2026 rate was 11.092&cent;/kWh. It is the rate to beat — and in winter, beating it
         honestly is harder than the ads suggest.</p>
@@ -242,8 +289,9 @@
       <details>
         <summary>When does the RI Energy Last Resort rate change?</summary>
         <p>The Last Resort rate resets twice a year, on <strong>April 1</strong> and <strong>October 1</strong>.
-        The current winter rate of 17.029&cent;/kWh runs from October 1, 2026 through <strong>March 31,
-        2027</strong>. The next rate takes effect on <strong>April 1, 2027</strong>; it is proposed by Rhode
+        The current rate of <!--AUTO:benchmark_rate-->17.029<!--/AUTO-->&cent;/kWh runs
+        <!--AUTO:benchmark_period-->October 1, 2026 through March 31, 2027<!--/AUTO-->. The next rate takes
+        effect on <strong><!--AUTO:benchmark_next_start-->April 1, 2027<!--/AUTO--></strong>; it is proposed by Rhode
         Island Energy and approved by the RI Public Utilities Commission. Any supplier offer you compare today
         should be measured against the rate in force for the months the contract would actually cover.</p>
       </details>
